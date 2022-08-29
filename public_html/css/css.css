@@ -1,0 +1,207 @@
+﻿@media (min-width: 50px) and (max-width: 550px) {
+    .navbar-brand {
+     font-size: 14px !important; 
+	 color: white !important;
+	
+    }
+    
+    button {
+        font-size: 12px;
+    }
+    
+    .intro_img_container > h4{
+        padding-top: 10px; 
+    }
+	
+	#filler {
+		background-color: black !important;
+		height: 56px !important;
+	}
+}
+
+.container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.navbar-header a:hover{
+    transition: 0.5s;
+    color: grey !important;
+}
+
+.navbar-brand {
+     font-size: 18px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 4px;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar-nav li.active a {
+    color: white !important;
+    background-color: black !important;
+}
+
+.navbar-nav li a:hover {
+    transition: 0.5s !important;
+    color: grey !important;
+}
+
+#nav {
+    padding: 0 20px 0 20px;
+}
+
+.hr1 {
+    height: 1px;
+    width: 90%;
+    background-color: #eaeaea;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#gallery_nav h2{
+    padding-bottom: 20px;
+}
+
+.img-thumbnail {
+    padding-top: 30px;
+    border: none;
+    border-radius: 0;
+    transition: 1s;
+}
+
+.img-thumbnail:hover, .img-thumbnail:focus {
+    opacity: 0.5;
+    cursor: zoom-in; 
+}
+
+.modal_img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px 0px 10px;
+}
+
+.modal-header {
+    border: none;
+    padding: 15px 0px 0px 15px;
+}
+
+.modal-body {
+    padding: 0px 5px 0px 5px;
+}
+
+.modal-footer {
+    border: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    transition: 0.5s;
+    border: #bbb9b9 solid 2px;
+}
+
+#contacts .dscr{
+   padding: 20px;
+}
+
+#googleMap{
+    margin-top: 20px;
+    width: 100%; 
+    height: 500px; 
+    border-top: #bbb9b9 solid 1px;
+    border-bottom: #bbb9b9 solid 1px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    opacity: 0.8;
+    overflow: auto;
+}
+
+footer div {
+    display: inline-block;
+}
+
+#cp {
+    width: 90%;
+}
+
+#up {
+    padding: 0;
+    width: 7%
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+.msg_remove {
+    border: brown solid 1px;
+}
+
+.msg_remove:focus {
+    border: brown solid 1px;
+    -moz-box-shadow: 0 0 5px brown;
+    -webkit-box-shadow: 0 0 5px brown;
+    box-shadow: 0 0 5px brown;
+}
+
+.msg_ok {
+    border: green solid 1px;
+}
+
+.msg_ok:focus {
+    border: green solid 1px;
+    -moz-box-shadow: 0 0 5px green;
+    -webkit-box-shadow: 0 0 5px green;
+    box-shadow: 0 0 5px green;
+}
+
+.inc_info_msg {
+    color: brown;
+    padding-top: 7px;
+    font-weight: bold;
+}
+
+#msg {
+   width: 100% 
+}
+
+//contacts modal css (in js)
+.scm{
+    font-size: 16px;
+    color: green;
+    border-top: #cccccc solid 1px; 
+    border-bottom: #cccccc solid 1px;
+    padding: 20px 0 20px 0;
+}
+
+.fcm {
+    font-size: 16px;
+    color: red;
+    border-top: #cccccc solid 1px;
+    border-bottom: #cccccc solid 1px;
+    padding: 20px 0 20px 0;
+}
